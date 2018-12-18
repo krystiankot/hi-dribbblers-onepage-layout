@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <main class="content">
+        <!-- home -->
+        <section class="content__screen home" id="home">
+            <header class="home__header">
+                <h3 class="home__header__welcome">Hi, dribbblers!</h3>
+                <div class="home__header__date">
+                    <div>
+                        <span class="_--color-EE2F6E">13 dec</span>
+                        <span>2018</span>
+                    </div>
+                </div>
+                <h1 class="home__header__location">Rzeszów meetup</h1>
+            </header>
+        </section>
+        <!-- schedue -->
+        <section class="content__screen schedule" id="schedule">
+            <ul class="schedule__list _--relativeCentering">
+                <li class="schedule__item">
+                    <span class="schedule__item__title">Best Dribble shot contest</span>
+                    <span class="schedule__item__time">18:00</span>
+                </li>
+                <li class="schedule__item">
+                    <span class="schedule__item__title">
+                        <span class="_--color-EE2F6E">Leta Sobierajski</span> <span>Creative side of interfaces</span>
+                    </span>
+                    <span class="schedule__item__time schedule__item__time--big _--color-EE2F6E">18:30</span>
+                    <div class="schedule__playerBox">
+                        <img class="schedule__playerBox__pinkSquare" src="./assets/pinksquare.svg" alt="pinkSquare">
+                        <img class="schedule__playerBox__playerIcon" src="./assets/player.svg" alt="playerIcon">
+                    </div>
+                </li>
+                <li class="schedule__item">
+                    <span class="schedule__item__title">Playboard game</span>
+                    <span class="schedule__item__time">19:00</span>
+                </li>
+                <li class="schedule__item">
+                    <span class="schedule__item__title">
+                        <span class="_--color-EE2F6E">Gleb Kuznetsov</span> <span>Design interactions update</span>
+                    </span>
+                    <span class="schedule__item__time schedule__item__time--big _--color-EE2F6E">19:30</span>
+                    <img class="schedule__blueSquare" src="./assets/bluesquare.svg" alt="blueSquare">
+                </li>
+                <li class="schedule__item">
+                    <span class="schedule__item__title">Pizza time</span>
+                    <span class="schedule__item__time">20:00</span>
+                    <img class="schedule__pizzaIcon" src="./assets/pizza.svg" alt="pizzaIcon">
+                </li>
+            </ul>
+            <div class="schedule__leftLine"></div>
+            <div class="schedule__rightLine"></div>
+        </section>
+        <!-- speakers -->
+        <section class="content__screen speakers" id="speakers">
+            <div class="speakers__container _--relativeCentering">
+                <figure class="speakers__presenter">
+                    <figcaption class="speakers__firstPresenterInfo">
+                        <h3 class="speakers__presenter__name">Leta Sobierajski</h3>
+                        <h2 class="speakers__presenter__number">01</h2>
+                        <span class="speakers__presenter__description">Design &<br> Art Director</span>
+                    </figcaption>
+                    <img class="speakers__firstPresenterImg" src="./assets/presenter1.png" alt="Leta Sobierajski">
+                </figure>
+                <figure class="speakers__presenter">
+                    <img class="speakers__secondPresenterImg" src="./assets/presenter2.png" alt="Gleb Kuznetsov">
+                    <figcaption class="speakers__secondPresenterInfo">
+                        <span class="speakers__presenter__description">Chief Design &<br> Officer</span>
+                        <h2 class="speakers__presenter__number">02</h2>
+                        <h3 class="speakers__presenter__name">Gleb Kuznetsov</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="speakers__leftLine"></div>
+        </section>
+        <!-- location -->
+        <section class="content__screen location" id="location">
+            <div class="location__container _--relativeCentering">
+                <div class="location__content__container">
+                    <h3 class="location__place">Kwadrat</h3>
+                    <span class="location__placeDescription">Podkarpacka Przestrzeń Kreatywna <br></span>
+                    <span class="location__address">Piotra Bardowskiego 4 <br> 35-005 Rzeszów</span>
+                    <h4 class="location__startTime _--color-EE2F6E">Start 18:00</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar__logo">
+            <img src="./assets/logo.svg" alt="logo">
+        </div>
+        <div class="sidebar__gap"></div>
+        <ul class="sidebar__menu">
+            <li class="sidebar__menu__item">
+                <div class="sidebar__menu__item__bg">
+                    <a href="#home">Home</a>
+                </div>
+                <img class="sidebar__menu__item__icon" src="./assets/basketicon.svg" alt="basketIcon">
+            </li>
+            <li class="sidebar__menu__item">
+                <div class="sidebar__menu__item__bg">
+                    <a href="#schedule">Schedule</a>
+                </div>
+                <img class="sidebar__menu__item__icon" src="./assets/watchesicon.svg" alt="watchesIcon">
+            </li>
+            <li class="sidebar__menu__item">
+                <div class="sidebar__menu__item__bg">
+                    <a href="#speakers">Speakers</a>
+                </div>
+                <img class="sidebar__menu__item__icon" src="./assets/t-shirt.svg" alt="t-shirtIcon">
+            </li>
+            <li class="sidebar__menu__item">
+                <div class="sidebar__menu__item__bg">
+                    <a href="#location">Location</a>
+                </div>
+                <img class="sidebar__menu__item__icon" src="./assets/courticon.svg" alt="courtIcon">
+            </li>
+        </ul>
+        <div class="sidebar__gap"></div>
+        <div class="sidebar__counter">
+            <span class="sidebar__counter__numberOfDays">51<br></span>
+            <span class="sidebar__counter__label">days left</span>
+        </div>
+        <footer class="sidebar__footer">
+            <ul class="sidebar__footer__links">
+                <li>
+                    <a href="#">
+                        <img src="./assets/facebook.svg" alt="facebookIcon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/dribbble1.svg" alt="dribbbleIcon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/linkedin.svg" alt="linkedinIcon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/email.svg" alt="emailIcon">
+                    </a>
+                </li>
+            </ul>
+            <span class="sidebar__footer__sponsor">sponsored by <a href="#">pgs-soft.com</a></span>
+        </footer>
+    </aside>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
